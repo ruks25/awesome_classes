@@ -1,0 +1,274 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Coaching Classes - 12th Science Study Material</title>
+    <style>
+        /* Global Reset & Typography */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Institutional Header */
+        header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 2.5rem 1rem;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        /* Notice / Instruction Banner */
+        .notice-board {
+            background-color: #fff;
+            border-left: 5px solid #ff9800;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .notice-board strong {
+            color: #d32f2f;
+        }
+
+        /* Subject Grid Layout */
+        .subject-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+        }
+
+        /* Subject Cards */
+        .subject-card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            border-top: 4px solid #1e3c72;
+        }
+
+        .subject-card.physics { border-top-color: #009688; }
+        .subject-card.chemistry { border-top-color: #e91e63; }
+        .subject-card.biology { border-top-color: #4caf50; }
+        .subject-card.maths { border-top-color: #ff9800; }
+
+        .subject-header {
+            padding: 1.25rem;
+            background-color: #fafbfc;
+            border-bottom: 1px solid #eee;
+        }
+
+        .subject-header h2 {
+            font-size: 1.4rem;
+            color: #2c3e50;
+        }
+
+        /* Resource List Items */
+        .resource-list {
+            list-style: none;
+            padding: 1rem 1.25rem;
+            flex-grow: 1;
+        }
+
+        .resource-list li {
+            padding: 0.75rem 0;
+            border-bottom: 1px dashed #e0e0e0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .resource-list li:last-child {
+            border-bottom: none;
+        }
+
+        .chapter-name {
+            font-size: 0.95rem;
+            color: #4f5d75;
+            padding-right: 10px;
+        }
+
+        /* Download/Link Buttons */
+        .btn-download {
+            display: inline-block;
+            background-color: #1e3c72;
+            color: white;
+            text-decoration: none;
+            padding: 0.4rem 0.8rem;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            transition: background 0.2s ease;
+            white-space: nowrap;
+        }
+
+        .subject-card.physics .btn-download { background-color: #009688; }
+        .subject-card.chemistry .btn-download { background-color: #e91e63; }
+        .subject-card.biology .btn-download { background-color: #4caf50; }
+        .subject-card.maths .btn-download { background-color: #ff9800; }
+
+        .btn-download:hover {
+            opacity: 0.9;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+        }
+
+        .classroom-box {
+            background-color: #fdf6e2;
+            border: 1px solid #f5e7c1;
+            padding: 1rem;
+            border-radius: 6px;
+            text-align: center;
+            margin-top: 1rem;
+        }
+
+        .classroom-code {
+            display: inline-block;
+            background: #fff;
+            padding: 0.2rem 0.6rem;
+            border: 1px solid #ccc;
+            font-family: monospace;
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #d32f2f;
+            margin-top: 0.5rem;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+	    width: 100vw;
+            padding: 2rem;
+            margin-top: 4rem;
+            background-color: #2c3e50;
+            color: #fff;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Awesome Coaching Classes</h1>
+        <p>HSC 12th Science - Digital Study Material & Lecture Presentations</p>
+    </header>
+
+    <div class="container">
+        
+        <!-- Instruction Banner -->
+        <div class="notice-board">
+            <p><strong>Instructions for Students:</strong> Click on the respective subject chapter buttons to download the presentation files (PPT/PDF). </p>
+        </div>
+
+        <!-- Material Grid -->
+        <div class="subject-grid">
+
+            <!-- Physics Card -->
+            <div class="subject-card physics">
+                <div class="subject-header">
+                    <h2>Physics (PDF Links)</h2>
+                </div>
+                <ul class="resource-list">
+                    <li><span class="chapter-name">Ch 1: Rotational Dynamics</span><a href="https://drive.google.com/file/d/1gx2o2p_ejHiO_BcBhVKIjuhne-AcPI9H/view?usp=drive_link" class="btn-download">Download</a></li>
+                    <li><span class="chapter-name">Ch 2: Mechanical Properties of Fluids</span><a href="https://drive.google.com/file/d/1KEQqebzKlTS2Ja6JGw-Lik6xB6KbNpzG/view?usp=drive_link" class="btn-download">Download</a></li>
+                    <li><span class="chapter-name">Ch 3: Kinetic Theory of Gases & Rad.</span><a href="https://drive.google.com/file/d/1kTBrYhbdvuAqyVjzYDmaNorrkqr7Hrnh/view?usp=drive_link" class="btn-download">Download</a></li>
+      <li><span class="chapter-name">Ch 4: Thermodynamics</span><a href="https://drive.google.com/file/d/1TgQxAGfc3FvALZ37rorLFe5C1_IcVjHu/view?usp=drive_link" class="btn-download">Download</a></li>
+      <li><span class="chapter-name">Ch 5: Oscillations</span><a href="https://drive.google.com/file/d/1HqpJ80MXCWM1-FJpqaS0VTf0ieFtb7mC/view?usp=drive_link" class="btn-download">Download</a></li>
+
+<li><span class="chapter-name">Ch 6: Superposition of Waves </span><a href="https://drive.google.com/file/d/1_VIi_R6i11shCGJP1AT3npKFQaUd7iqm/view?usp=drive_link" class="btn-download">Download</a></li>
+
+<li><span class="chapter-name">Ch 7: Wave Optics </span><a href="https://drive.google.com/file/d/1s2KKrIUITX3t9g7X-N2NsSKvXMn5g2rg/view?usp=drive_link" class="btn-download">Download</a></li>
+
+<li><span class="chapter-name">Ch 8: Electrostatics </span><a href="https://drive.google.com/file/d/1MldsTQojKY13aFu6tyKqe7tU_M4N5iQ9/view?usp=drive_link" class="btn-download">Download</a></li>
+
+<li><span class="chapter-name">Ch 9: Current Electricity </span><a href="https://drive.google.com/file/d/1nVKH0vd7htIw9J6w3fShr3gTtgTWUdIV/view?usp=drive_link" class="btn-download">Download</a></li>
+
+<li><span class="chapter-name">Ch 10: Magnetic Fields due to Electric Current </span><a href="https://drive.google.com/file/d/1cI87AKpPLygud2yY_q8WQ8jO_y4tGHHE/view?usp=drive_link" class="btn-download">Download</a></li>
+
+<li><span class="chapter-name">Ch 11: Magnetic Materials </span><a href="https://drive.google.com/file/d/1TPiNgU2vPvdrh-d0n8A1GWbsTSJnlyU4/view?usp=drive_link" class="btn-download">Download</a></li>
+
+<li><span class="chapter-name">Ch 12: Electromagnetic induction </span><a href="https://drive.google.com/file/d/1dBYY-Bm4oEaaU9nCatw-Dliwc5-VHXUK/view?usp=drive_link" class="btn-download">Download</a></li>
+
+<li><span class="chapter-name">Ch 13: AC Circuits</span><a href="https://drive.google.com/file/d/185u1XayFetChr8mLDyQ1aXc3kDCyZLtQ/view?usp=drive_link" class="btn-download">Download</a></li>
+
+<li><span class="chapter-name">Ch 14: Dual Nature of Radiation and Matter </span><a href="https://drive.google.com/file/d/1UgfTbqVPivVW2kyEhhn2MCUumJhurg6l/view?usp=drive_link" class="btn-download">Download</a></li>
+
+<li><span class="chapter-name">Ch 15: Structure of Atoms and Nuclei </span><a href="https://drive.google.com/file/d/1c9N6c6LamDRjHIA3ePcyk6IaziUX4W_4/view?usp=drive_link" class="btn-download">Download</a></li>
+
+<li><span class="chapter-name">Ch 16: Semiconductor Devices </span><a href="https://drive.google.com/file/d/140GJl84te0b_VBucM7-tEkjLLSL-aql5/view?usp=drive_link" class="btn-download">Download</a></li>
+
+
+                </ul>
+            </div>
+
+            <!-- Chemistry Card -->
+            <div class="subject-card chemistry">
+                <div class="subject-header">
+                    <h2>Chemistry (PPT Links)</h2>
+                </div>
+                <ul class="resource-list">
+                    <li><span class="chapter-name">Ch 1: Solid State</span><a href="#" class="btn-download">Download</a></li>
+                    <li><span class="chapter-name">Ch 2: Solutions</span><a href="#" class="btn-download">Download</a></li>
+                    <li><span class="chapter-name">Ch 3: Ionic Equilibria</span><a href="#" class="btn-download">Download</a></li>
+                    <li><span class="chapter-name">Ch 4: Chemical Thermodynamics</span><a href="#" class="btn-download">Download</a></li>
+                    <li><span class="chapter-name">Ch 5: Electrochemistry</span><a href="#" class="btn-download">Download</a></li>
+                </ul>
+            </div>
+
+            <!-- Biology Card -->
+            <div class="subject-card biology">
+                <div class="subject-header">
+                    <h2>Biology (PPT Links)</h2>
+                </div>
+                <ul class="resource-list">
+                    <li><span class="chapter-name">Ch 1: Reproduction in Lower & Higher Plants</span><a href="#" class="btn-download">Download</a></li>
+                    <li><span class="chapter-name">Ch 2: Reproduction in Lower & Higher Animals</span><a href="#" class="btn-download">Download</a></li>
+                    <li><span class="chapter-name">Ch 3: Inheritance and Variation</span><a href="#" class="btn-download">Download</a></li>
+                    <li><span class="chapter-name">Ch 4: Molecular Basis of Inheritance</span><a href="#" class="btn-download">Download</a></li>
+                    <li><span class="chapter-name">Ch 5: Origin and Evolution of Life</span><a href="#" class="btn-download">Download</a></li>
+                </ul>
+            </div>
+
+            
+    <footer>
+        <p>&copy; 2026 Awesome Coaching Classes. Designed for Maharashtra State Board HSC Curriculum.</p>
+    </footer>
+
+</body>
+</html>
+
+
+
